@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_home">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vien1"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:text="Danh Sách Sinh Viên"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_them"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#ff0000"-->
+<!--            android:text="Thêm Mới"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:layout_gravity="right"/>-->
+
+
+    <ListView
+        android:layout_margin="15dp"
+        android:id="@+id/lv"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="2dp"/>
+
+</LinearLayout>

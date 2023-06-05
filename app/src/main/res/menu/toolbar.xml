@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/lich_hoc"
+        android:title="Lich hoc"
+        />
+    <item
+        android:id="@+id/bangdiem"
+        android:title="Bang diem"
+        />
+    <item
+        android:id="@+id/diemdanh"
+        android:title="Diem danh"
+        />
+    <item
+        android:id="@+id/dangxuat"
+        android:title="Dang xuat"
+        />
+    <item
+        android:id="@+id/tim_kiem"
+        android:title="timKiem"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_search_24"/>
+    <item
+        android:id="@+id/them_moi"
+        android:title="themSv"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_person_add_24"/>
+</menu>
